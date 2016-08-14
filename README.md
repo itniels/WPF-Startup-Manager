@@ -9,7 +9,9 @@ A simple class library to manage startup with windows in WPF applications.
 
 ## Installation
 Download the .dll and add to references in your project.
+
 or
+
 Download the NuGet package (Coming soon!)
 
 ## Usage
