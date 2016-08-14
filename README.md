@@ -1,4 +1,4 @@
-# WPF-Startup-;anager
+# WPF Startup Manager
 A simple class library to manage startup with windows in WPF applications.
 
 ## Features
