@@ -46,7 +46,7 @@ namespace NovaKittySoftware
         [TestMethod]
         public void IsStartup()
         {
-            NovaKittySoftware
+            WpfStartupManager.AllUsers.RemoveApplicationFromStartup(appName);
             bool value = WpfStartupManager.AllUsers.IsStartup(appName);
             Assert.AreEqual(false, value);
         }

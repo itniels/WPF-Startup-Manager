@@ -13,10 +13,6 @@ namespace NovaKittySoftware.WpfStartupManager
     /// </summary>
     public static class AllUsers
     {
-        /// <summary>
-        /// Custom exception to throw if the user is not an administrator.
-        /// </summary>
-        private static Exception UserNotAdministratorException { get; set; }
 
         /// <summary>
         /// Adds a registry key to startup the program with 'applicationName' as the display name. Then returns boolean value if application exists in registry.
@@ -37,10 +33,6 @@ namespace NovaKittySoftware.WpfStartupManager
                             "\"" + System.Reflection.Assembly.GetExecutingAssembly().Location + @"\");
                     }
                 }
-            }
-            else
-            {
-                throw UserNotAdministratorException;
             }
             return IsStartup(applicationName);
         }
@@ -65,10 +57,6 @@ namespace NovaKittySoftware.WpfStartupManager
                         key.DeleteValue(applicationName, false);
                     }
                 }
-            }
-            else
-            {
-                throw UserNotAdministratorException;
             }
             return IsStartup(applicationName);
         }
