@@ -16,12 +16,12 @@ Download the NuGet package (Coming soon!)
 
 ## Usage
 Wpf Startup Manager has a few methods that can be called, and these will be explained here in detail.
-There are 3 groups:
+There are 3 groups within the namespace: 'NovaKittySoftware.WpfStartupManager':
 - Admin
 - AllUsers
 - CurrentUser
 
-These are very self explanatory (i hope) ;)
+These are pretty self explanatory (i hope) ;)
 and under each are the available public methods that you will need.
 
 All methods return a boolean that is checked after the action is completed and you can test the output.
