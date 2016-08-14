@@ -12,11 +12,11 @@ Download the .dll and add to references in your project.
 
 or
 
-Download the NuGet package (Coming soon!)
+Download the NuGet package here: https://www.nuget.org/packages/NovaKittySoftware.wpf.StartupManager/
 
 ## Usage
 Wpf Startup Manager has a few methods that can be called, and these will be explained here in detail.
-There are 3 groups within the namespace: 'NovaKittySoftware.WpfStartupManager':
+There are 3 groups within the namespace: 'NovaKittySoftware.wpf.StartupManager':
 - Admin
 - AllUsers
 - CurrentUser
@@ -33,26 +33,26 @@ As this is what the library looks for in the registry.
 Adding a program to widows startup for the current user only:
 ```C#
 public void AddToStartup(){
-  NovaKittySoftware.WpfStartupManager.CurrentUser.AddApplicationToStartup(MyAppName);
+  NovaKittySoftware.wpf.StartupManager.CurrentUser.AddApplicationToStartup(MyAppName);
 }
 ```
 Removing a program to widows startup for all users:
 ```C#
 public void RemoveFromStartup(){
-  NovaKittySoftware.WpfStartupManager.AllUsers.RemoveApplicationFromStartup(MyAppName);
+  NovaKittySoftware.wpf.StartupManager.AllUsers.RemoveApplicationFromStartup(MyAppName);
 }
 ```
 
 Check if application is set for startup or not for current user:
 ```C#
 public void CheckStartup(){
-  bool isStartup = NovaKittySoftware.WpfStartupManager.CurrentUser.IsStartup(MyAppName);
+  bool isStartup = NovaKittySoftware.wpf.StartupManager.CurrentUser.IsStartup(MyAppName);
 }
 ```
 
 Check if the current user is administrator:
 ```C#
 public void CheckAdmin(){
-  bool isAdmin = WpfStartupManager.Admin.IsUserAdministrator();
+  bool isAdmin = NovaKittySoftware.wpf.StartupManager.Admin.IsUserAdministrator();
 }
 ```
