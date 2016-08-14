@@ -1,4 +1,10 @@
-﻿using System;
+﻿// ================================================================================================
+// Created by Niels Schmidt - it.niels@gmail.com
+// Find this on GitHub: https://github.com/itniels/WPF-Startup-Manager
+// For documentation please see: https://github.com/itniels/WPF-Startup-Manager
+// For license please see: https://github.com/itniels/WPF-Startup-Manager/blob/master/License.md
+// ================================================================================================
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Principal;
