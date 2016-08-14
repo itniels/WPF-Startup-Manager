@@ -11,7 +11,7 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NovaKittySoftware.WpfStartupManager
+namespace NovaKittySoftware.Wpf.StartupManager
 {
     public static class Admin
     {

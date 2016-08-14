@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Win32;
 
-namespace NovaKittySoftware.WpfStartupManager
+namespace NovaKittySoftware.Wpf.StartupManager
 {
     /// <summary>
     /// Adds or removed the application from windows startup for the current user only.
