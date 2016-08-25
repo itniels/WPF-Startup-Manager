@@ -2,10 +2,17 @@
 A simple class library to manage startup with windows in WPF applications.
 
 ## Features
-- Check if set as startup
-- Add to windows startup (Current User + All Users)
-- Remove from windows startup (Current User + All Users)
-- Check if user has administrator privileges.
+- [x] Check if set as startup
+- [x] Add to windows startup (Current User + All Users)
+- [x] Remove from windows startup (Current User + All Users)
+- [x] Check if user has administrator privileges.
+
+## Tested on
+- [ ] Windows 7
+- [ ] Windows 8
+- [ ] Windows 8.1
+- [x] Windows 10 (Working)
+- [x] Windows Server 2012 R2 (Working)
 
 ## Installation
 Download the .dll and add to references in your project.
