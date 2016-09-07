@@ -10,7 +10,7 @@ A simple class library to manage startup with windows in WPF applications.
 ## Tested on
 - [ ] Windows 7
 - [ ] Windows 8
-- [ ] Windows 8.1
+- [x] Windows 8.1
 - [x] Windows 10 (Working)
 - [x] Windows Server 2012 R2 (Working)
 
